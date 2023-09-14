@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #e0ffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top: 20px;
+    position: relative;
+}
+img{
+    width: 250px;
+}
+#header-item1{
+    text-align: right;
+}
+#header-item2{
+    text-align: left;
+    justify-items: center;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+nav a{
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: block;
+
+}
+li{
+    list-style-type: none;
+}
+nav{
+    margin: 20px auto;
+}
