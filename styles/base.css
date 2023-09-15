@@ -5,13 +5,19 @@ body{
     background-color: #e0ffff;
     text-align: center;
     font-size: 18px;
+    font-family: Calibri, 'Gill Sans';
+    margin: 0px;
 }
 
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    top: 20px;
-    position: relative;
+    padding: 20px;
+    background-color: #515073;
+}
+h1{
+    font-size: 3.5rem;
+    color: white;
 }
 img{
     width: 250px;
@@ -27,14 +33,59 @@ img{
 }
 nav a{
     margin: 20px 0;
+    color: aliceblue;
     text-decoration: none;
     font-size: 1.4rem;
     display: block;
 
 }
+nav a:hover{
+    color: black;
+}
 li{
     list-style-type: none;
 }
 nav{
-    margin: 20px auto;
+    margin-top: 0px;
+    background-color: #727350;
+    padding: 5px;
 }
+footer{
+    background-color: #515073;
+    padding: 20px;
+    position: relative;
+}
+footer p{
+    color: aliceblue;
+}
+.card{
+    text-align: left;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.card li a{
+    text-decoration: none;
+}
+h3{
+    font-size: 2rem;
+    background-color: #515073;
+    color: white;
+    margin: 0;
+    padding: 15px 30px;
+}
+h2{
+    font-size: 2.5rem;
+}
+.card p{
+    text-align: center;
+}
+.card a:hover{
+    color: black;
+}
+hr{
+    height: 7px;
+    background-color: #515073;
+}
+ 
+
