@@ -37,6 +37,7 @@ article p {
   background-color: #702963;
   padding: 10px 20px;
   grid-column: 1/3;
+  width: 100%;
 }
 
 footer {
