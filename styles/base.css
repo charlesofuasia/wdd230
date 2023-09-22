@@ -1,91 +1,96 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    background-color: #e0ffff;
-    text-align: center;
-    font-size: 18px;
-    font-family: Calibri, 'Gill Sans';
-    margin: 0px;
-}
-
-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px;
-    background-color: #515073;
-}
-h1{
-    font-size: 3.5rem;
-    color: white;
-}
-img{
-    width: 250px;
-}
-#header-item1{
-    text-align: right;
-}
-#header-item2{
-    text-align: left;
-    justify-items: center;
-    margin-top: 70px;
-    margin-left: 20px;
-}
-nav a{
-    margin: 20px 0;
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 1.4rem;
-    display: block;
-
-}
-nav a:hover{
-    color: black;
-}
-li{
-    list-style-type: none;
-}
-nav{
-    margin-top: 0px;
-    background-color: #727350;
-    padding: 5px;
-}
-footer{
-    background-color: #515073;
-    padding: 20px;
-    position: relative;
-}
-footer p{
-    color: aliceblue;
-}
-.card{
-    text-align: left;
-    padding: 10px;
-    font-size: 1.5rem;
+body {
+  background-color: #e0ffff;
+  text-align: center;
+  font-size: 18px;
+  font-family: Calibri, "Gill Sans";
+  margin: 1rem auto;
 }
 
-.card li a{
-    text-decoration: none;
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  background-color: #515073;
 }
-h3{
-    font-size: 2rem;
-    background-color: #515073;
-    color: white;
-    margin: 0;
-    padding: 15px 30px;
+h1 {
+  font-size: 3.5rem;
+  color: #fff;
 }
-h2{
-    font-size: 2.5rem;
+img {
+  width: 250px;
 }
-.card p{
-    text-align: center;
+#header-item1 {
+  text-align: right;
 }
-.card a:hover{
-    color: black;
+#header-item2 {
+  text-align: left;
+  justify-items: center;
+  margin-top: 70px;
+  margin-left: 20px;
 }
-hr{
-    height: 7px;
-    background-color: #515073;
+nav a {
+  margin: 20px 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: block;
 }
- 
+nav a:hover {
+  color: black;
+}
+li {
+  list-style-type: none;
+}
+nav {
+  margin-top: 0px;
+  background-color: #727350;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  background-color: #515073;
+  padding: 20px;
+  position: relative;
+}
+footer p {
+  color: #ffe0e0;
+}
+.card {
+  text-align: left;
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: #ffe0e0;
+  border: solid 2px #515073;
+  border-radius: 2%;
+}
 
+.card li a {
+  text-decoration: none;
+}
+h3 {
+  font-size: 2em;
+  background-color: #515073;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+h2 {
+  font-size: 2.5em;
+}
+.card a:hover {
+  color: black;
+}
+hr {
+  height: 3px;
+  background-color: #515073;
+  margin: 0;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  margin: 1rem;
+}
