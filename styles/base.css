@@ -6,7 +6,14 @@ body {
   text-align: center;
   font-size: 18px;
   font-family: Calibri, "Gill Sans";
-  margin: 0px auto;
+  text-align: center;
+}
+header,
+nav,
+main,
+footer {
+  max-width: 100%;
+  margin: 1rem auto;
 }
 
 header {
@@ -63,7 +70,7 @@ footer p {
   font-size: 1.5rem;
   background-color: #ffe0e0;
   border: solid 2px #515073;
-  border-radius: 2%;
+  border-radius: 10px;
 }
 
 .card li a {
@@ -88,7 +95,6 @@ hr {
   margin: 0;
 }
 main {
-  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
