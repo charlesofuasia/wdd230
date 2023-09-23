@@ -6,17 +6,17 @@ body {
   text-align: center;
   font-size: 18px;
   font-family: Calibri, "Gill Sans";
-  margin: 1rem auto;
+  margin: 0px auto;
 }
 
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px;
+  padding: 1rem;
   background-color: #515073;
 }
 h1 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: #fff;
 }
 img {
@@ -32,11 +32,10 @@ img {
   margin-left: 20px;
 }
 nav a {
-  margin: 20px 0;
+  margin: 0.5rem;
   color: #fff;
   text-decoration: none;
   font-size: 1.4rem;
-  display: block;
 }
 nav a:hover {
   color: black;
@@ -71,14 +70,14 @@ footer p {
   text-decoration: none;
 }
 h3 {
-  font-size: 2em;
+  font-size: 1.8em;
   background-color: #515073;
   color: white;
   margin: 0 auto;
   text-align: center;
 }
 h2 {
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 .card a:hover {
   color: black;
