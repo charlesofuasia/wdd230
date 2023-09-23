@@ -94,3 +94,6 @@ main {
   grid-gap: 1rem;
   margin: 1rem;
 }
+img {
+  max-width: 100%;
+}
