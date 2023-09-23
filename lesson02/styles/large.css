@@ -1,0 +1,15 @@
+@media screen and (min-width: 1200px) {
+  header {
+    background-color: steelblue;
+    color: #000;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  footer {
+    background-color: steelblue;
+    color: #000;
+  }
+}
