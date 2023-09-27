@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+li {
+  list-style: none;
+  margin-top: 1rem;
+}
+a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  color: #515073;
+  cursor: pointer;
+}
+section {
+  width: 50%;
+  margin: 2rem;
+}
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  max-width: 100%;
+  background-color: #515073;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+img {
+  display: block;
+  margin: 5rem auto;
+}
