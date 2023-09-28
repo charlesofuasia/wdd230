@@ -13,7 +13,7 @@ nav,
 main,
 footer {
   max-width: 100%;
-  margin: 1rem auto;
+  margin: 0;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
   background-color: #515073;
 }
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.4rem;
   color: #fff;
 }
 img {
@@ -37,24 +37,58 @@ img {
   justify-items: center;
   margin-top: 70px;
   margin-left: 20px;
+  /*Responsive Navigation CSS*/
 }
-nav a {
-  margin: 0.5rem;
-  color: #fff;
+#menu {
+  display: inline-block;
+  background: #ffe0e0;
+  color: #515073;
+  font-size: 2.2rem;
+  padding: 0.4rem 0.7rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#menu::before {
+  content: "Ξ";
+}
+#menu.show::before {
+  content: "⨉";
+}
+.navlist {
+  display: flex;
+  flex-direction: column;
+  color: #e0ffff;
+}
+.navlist li {
+  display: none;
+}
+.navlist li a {
+  display: block;
+  padding: 0.6rem;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-family: "Rubik", "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: #e0ffff;
 }
-nav a:hover {
-  color: black;
+.show li {
+  display: block;
+  width: 100%;
 }
+.show li a {
+  display: block;
+}
+.active::after {
+  content: " ⁕";
+}
+
 li {
   list-style-type: none;
 }
 nav {
-  margin-top: 0px;
+  margin: 0px auto;
+  padding: 1rem;
   background-color: #727350;
-  display: flex;
-  flex-direction: column;
 }
 footer {
   background-color: #515073;
@@ -77,14 +111,15 @@ footer p {
   text-decoration: none;
 }
 h3 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   background-color: #515073;
   color: white;
   margin: 0 auto;
   text-align: center;
 }
 h2 {
-  font-size: 2.2em;
+  font-size: 2em;
+  margin: 0;
 }
 .card a:hover {
   color: black;
@@ -100,6 +135,10 @@ main {
   grid-gap: 1rem;
   margin: 1rem;
 }
-img {
+img,
+iframe {
   max-width: 100%;
+}
+iframe {
+  width: 100%;
 }
