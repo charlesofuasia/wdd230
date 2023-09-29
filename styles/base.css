@@ -23,7 +23,7 @@ header {
   background-color: #515073;
 }
 h1 {
-  font-size: 3.4rem;
+  font-size: 3rem;
   color: #fff;
 }
 img {
@@ -77,8 +77,8 @@ img {
 .show li a {
   display: block;
 }
-.active::after {
-  content: " ⁕";
+.navlist a:active {
+  text-decoration: underline;
 }
 
 li {
