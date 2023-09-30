@@ -77,8 +77,8 @@ img {
 .show li a {
   display: block;
 }
-.navlist a:active {
-  text-decoration: underline;
+.active::after {
+  content: " 🪲";
 }
 
 li {
