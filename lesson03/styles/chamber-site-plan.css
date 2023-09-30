@@ -94,3 +94,6 @@ table {
 img {
   max-width: 100%;
 }
+#return-link::before {
+  content: "⬅️ ";
+}
