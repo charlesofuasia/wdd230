@@ -89,6 +89,7 @@ th {
 }
 table {
   margin: 1rem auto;
+  max-width: 100%;
 }
 img {
   max-width: 100%;
