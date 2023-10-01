@@ -99,11 +99,10 @@ footer p {
 }
 .card {
   text-align: left;
-  padding: 10px;
-  font-size: 1.5rem;
+  padding: 0;
+  font-size: 1.2rem;
   background-color: #ffe0e0;
   border: solid 2px #515073;
-  border-radius: 10px;
 }
 
 .card li a {
