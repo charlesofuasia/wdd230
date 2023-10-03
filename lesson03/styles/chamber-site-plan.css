@@ -58,7 +58,8 @@ tr,
 td,
 th {
   border: solid 1px #000;
-  padding: 1rem;
+  border-collapse: collapse;
+  padding: 0.5rem;
 }
 #primary {
   background-color: #140014;
@@ -93,6 +94,8 @@ table {
 }
 img {
   max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 #return-link::before {
   content: "⬅️ ";
