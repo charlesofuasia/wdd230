@@ -97,6 +97,3 @@ img {
   display: block;
   margin: 0 auto;
 }
-#return-link::before {
-  content: "⬅️ ";
-}
