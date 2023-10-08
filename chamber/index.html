@@ -44,18 +44,21 @@
       <img
         src="images/chamber_logo.png"
         alt="The logo of Lekki Chamber of Commerce"
+        width="150"
+        height="150"
       />
       <h1>Lekki Chamber of Commerce</h1>
     </header>
     <nav>
-      <ul>
+      <button id="menu" aria-label="menu-list"></button>
+      <ul class="navlist">
         <li><a href="index.html">Home Page</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Directory</a></li>
         <li><a href="#">Events</a></li>
       </ul>
     </nav>
-    <div>
+    <div id="hero">
       <img src="images/chamber_hero.jpg" alt="An arial view of Lagos City" />
       <p>Bringing businesses together for greater prosperity...</p>
       <button>Register</button>
@@ -86,10 +89,10 @@
     </main>
     <footer>
       <div>
-        <p>&copy;<span></span> Charles Ofuasia</p>
+        <p>&copy;<span id="copyDate"></span> Charles Ofuasia</p>
         <p>WDD 230 Class Project</p>
         <p>info@lekkichamberofcommerce.com</p>
-        <p></p>
+        <p id="lastModified"></p>
       </div>
       <div>
         <a href="http://www.facebook.com"
@@ -100,5 +103,7 @@
         /></a>
       </div>
     </footer>
+    <script src="scripts/datesetter.js"></script>
+    <script src="scripts/navigation.js"></script>
   </body>
 </html>

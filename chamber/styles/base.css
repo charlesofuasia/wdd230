@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+header,
+main,
+footer,
+img {
+  max-width: 100%;
+  margin: 0;
+}
+:root {
+  /* Color variables*/
+  --main-bg: #c2ffc2;
+  --sub-bg: #8fff8f;
+  --pry-color: #140014;
+  --sec-color: #001400;
+}
+header {
+  background-color: var(--main-bg);
+  width: 100%;
+  padding: 1rem;
+}
+header img {
+  display: block;
+  margin: 0 auto;
+}
+header p {
+  padding: 1rem 2rem;
+}
+nav {
+  background-color: var(--sec-color);
+  padding: 1rem;
+  margin-top: 0;
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+#menu {
+  display: inline-block;
+  background: var(--sub-bg);
+  color: var(--pry-color);
+  font-size: 2.2rem;
+  padding: 0.4rem 0.7rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#menu::before {
+  content: "Ξ";
+}
+#menu.show::before {
+  content: "⨉";
+}
+.navlist {
+  display: flex;
+  flex-direction: column;
+  color: #e0ffff;
+}
+.navlist li {
+  display: none;
+}
+.navlist li a {
+  display: block;
+  padding: 0.6rem;
+  text-decoration: none;
+  font-family: "Karla", "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: #e0ffff;
+}
+.show li {
+  display: block;
+  width: 100%;
+}
+.show li a {
+  display: block;
+}
