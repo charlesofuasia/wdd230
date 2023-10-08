@@ -1,0 +1,20 @@
+@media screen and (min-width: 1000px) {
+  #menu {
+    display: none;
+  }
+  .navlist li {
+    display: block;
+    flex: 1 1 100%;
+  }
+  .navlist {
+    flex-direction: row;
+  }
+  #hero img {
+    width: 100%;
+  }
+  h1,
+  h3 {
+    font-family: "Rubik";
+    text-align: center;
+  }
+}
