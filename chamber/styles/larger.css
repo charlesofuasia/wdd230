@@ -3,4 +3,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  #lastModified {
+    grid-column: 1/3;
+  }
+  footer div:first-child {
+    text-align: left;
+  }
 }
