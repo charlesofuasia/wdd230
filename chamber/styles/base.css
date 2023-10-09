@@ -3,8 +3,7 @@
 }
 header,
 main,
-footer,
-img {
+footer {
   max-width: 100%;
   margin: 0;
 }
@@ -14,6 +13,16 @@ img {
   --sub-bg: #8fff8f;
   --pry-color: #140014;
   --sec-color: #001400;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: var(--sub-bg);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0;
 }
 header {
   background-color: var(--main-bg);
@@ -47,6 +56,7 @@ a {
   font-size: 2.2rem;
   padding: 0.4rem 0.7rem;
   position: absolute;
+  border: none;
   top: 0;
   right: 0;
 }
@@ -59,7 +69,7 @@ a {
 .navlist {
   display: flex;
   flex-direction: column;
-  color: #e0ffff;
+  color: var(--main-bg);
 }
 .navlist li {
   display: none;
@@ -71,6 +81,10 @@ a {
   font-family: "Karla", "Roboto", sans-serif;
   font-size: 1.5rem;
   color: #e0ffff;
+}
+.navlist li a:hover {
+  color: var(--pry-color);
+  background-color: var(--main-bg);
 }
 .show li {
   display: block;
@@ -87,6 +101,8 @@ a {
 #hero img {
   grid-column: 1/3;
   grid-row: 1/3;
+  width: 100%;
+  margin: 0;
 }
 #hero p {
   grid-column: 1/2;
@@ -106,8 +122,25 @@ a {
 }
 main section {
   margin: 1rem;
-  padding: 1rem;
+  padding: 0;
   background-color: var(--main-bg);
   font-family: "Karla", "Roboto";
   border: 1px solid var(--sec-color);
+  border-radius: 10px;
+}
+div img {
+  margin: 0 2rem;
+}
+footer {
+  background-color: var(--pry-color);
+  color: var(--main-bg);
+  padding: 1rem;
+}
+h3 {
+  background-color: var(--pry-color);
+  color: var(--main-bg);
+  font-size: 2rem;
+  margin: 0;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
