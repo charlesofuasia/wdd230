@@ -1,0 +1,22 @@
+@media screen and (min-width: 650px) {
+  #menu {
+    display: none;
+  }
+  .navlist li {
+    display: block;
+    flex: 1 1 100%;
+  }
+  .navlist {
+    flex-direction: row;
+  }
+  #hero img {
+    width: 100%;
+  }
+  main {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+  }
+  main section:last-child {
+    grid-column: 1/4;
+  }
+}
