@@ -120,8 +120,13 @@ a {
   cursor: pointer;
   align-self: center;
 }
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 0.5rem;
+}
 main section {
-  margin: 1rem;
   padding: 0;
   background-color: var(--main-bg);
   font-family: "Karla", "Roboto";
@@ -139,6 +144,7 @@ footer {
 h2 {
   background-color: var(--pry-color);
   color: var(--main-bg);
+  padding: 0.5rem 1rem;
   margin: 0;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
