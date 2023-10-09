@@ -94,6 +94,7 @@ a {
   display: block;
 }
 #hero {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -111,14 +112,18 @@ a {
   z-index: 1;
 }
 #hero button {
-  grid-column: 2/3;
-  grid-row: 2/3;
+  position: absolute;
+  right: 80px;
+  bottom: 50px;
+  padding: 1rem 2rem;
   background-color: var(--pry-color);
   color: var(--main-bg);
-  width: 25%;
-  height: 20%;
+  border: 1px solid var(--sec-color);
+  border-radius: 10px;
+  font-family: "Karla", "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
   cursor: pointer;
-  align-self: center;
 }
 main {
   display: grid;
