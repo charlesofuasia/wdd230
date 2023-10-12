@@ -26,7 +26,7 @@ body {
 }
 header {
   position: relative;
-  top: 10;
+  top: 0;
   background-color: var(--main-bg);
   width: 100%;
   padding: 2.5rem;
@@ -40,9 +40,9 @@ header p {
   position: absolute;
   left: 2px;
   top: -0.5rem;
-  background-color: var(--pry-color);
-  color: #fff;
-  margin: 0.8rem;
+  color: var(--pry-color);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
 }
 header p::before {
   content: "✉️ ";
