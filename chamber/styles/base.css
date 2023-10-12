@@ -165,3 +165,11 @@ h2 {
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
 }
+#weather p:first-of-type {
+  font-size: 3.3rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+#weather p:first-of-type::before {
+  content: "🌥️ ";
+}
