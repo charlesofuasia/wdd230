@@ -52,9 +52,11 @@
         height="150"
       />
       <h1>Lekki Chamber of Commerce</h1>
+      <div id="mode">🌙</div>
     </header>
     <nav>
       <button id="menu" aria-label="menu-list"></button>
+      
       <ul class="navlist">
         <li><a href="index.html">Home Page</a></li>
         <li><a href="#">Services</a></li>
@@ -68,29 +70,32 @@
       <button>Register</button>
     </div>
     <main>
-      <section id="weather">
+      <section id="weather" class="card">
         <h2>Weather</h2>
         <p>33<sup>o</sup>C</p>
         <p>Mostly Cloudy</p>
       </section>
-      <section>
+      <section class="card">
+        <h2>Nerds' Hub</h2>
+        <p>Co-Working Space </p>
+        <p>08005555555</p>
+        <p>contact@nerds.net</p>
+      </section>
+      <section class="card">
         <h2>Advert Heading</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
         <p>contact info</p>
       </section>
-      <section>
-        <h2>Advert Heading</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
-        <p>contact info</p>
-      </section>
-      <section>
+      <section class="card">
         <h2>Upcoming Event</h2>
         <p>
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eo
+          Take your business to the next level by participating in the 2023 edition of Lekki Trade Fair. Showcase your products and services to the over 10,000 visitors expected at the event.
         </p>
+        <p>Date: 1st December, 2023 - 5th December, 2023</p>
+        <p>Time: 9:00 AM to 7:00 PM Daily</p>
+        <p>Venue: Alpha Beach Playground</p>
+        <p>Stand Rental: &#8358 50,000</p>
+        <button>Book Now</button>
       </section>
     </main>
     <footer>
@@ -111,5 +116,6 @@
     </footer>
     <script src="scripts/datesetter.js"></script>
     <script src="scripts/navigation.js"></script>
+    <script src="scripts/modes.js"></script>
   </body>
 </html>
