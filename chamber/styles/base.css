@@ -147,8 +147,6 @@ main {
 }
 main section {
   padding: 0;
-  border: 1px solid var(--sec-color);
-  border-radius: 10px;
 }
 div img {
   margin: 0 2rem;
