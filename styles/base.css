@@ -6,7 +6,8 @@ body {
   text-align: center;
   font-size: 18px;
   font-family: Calibri, "Gill Sans";
-  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
 }
 header,
 nav,
@@ -131,7 +132,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
-  margin: 1rem;
+  margin: 0;
 }
 img,
 iframe {
@@ -139,4 +140,19 @@ iframe {
 }
 iframe {
   width: 100%;
+}
+.hero {
+  position: relative;
+}
+.hero picture {
+  width: 100%;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+}
+.temple-label {
+  position: absolute;
+  top: 0;
+  left: 1rem;
 }
