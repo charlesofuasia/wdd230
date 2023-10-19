@@ -31,12 +31,15 @@
   <body>
     <header>
       <div id="header-item1">
-        <img
-          src="images/myphoto.webp"
-          alt="my photo"
-          width="161"
-          height="200"
-        />
+        <picture>
+          <source srcset="images/pic-small.webp" media="(max-width: 400px)" />
+          <img
+            src="images/pic-large.webp"
+            alt="my photo"
+            width="195"
+            height="251"
+          />
+        </picture>
       </div>
       <div id="header-item2"><h1>Charles Ofuasia</h1></div>
     </header>
