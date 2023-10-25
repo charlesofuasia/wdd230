@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  width: 400px;
+}
+main {
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  animation: fade 10s;
+  margin-top: 1rem;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+footer {
+  margin: 0 auto;
+  width: 400px;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+p {
+  text-align: center;
+}
