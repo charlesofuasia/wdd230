@@ -17,8 +17,7 @@ button.addEventListener("click", ()=> {
         newBtn.addEventListener("click", ()=> {
             list.removeChild(scripture)
         })
-        
-        
+           
 
     }
     else{ 
