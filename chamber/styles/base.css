@@ -180,3 +180,23 @@ section button {
   height: auto;
   margin: 0;
 }
+#discover {
+  margin: 0 auto;
+  max-width: 100%;
+}
+#info-card img,
+#discover-images img {
+  width: 100%;
+  height: auto;
+}
+.card {
+  border: 1px solid var(--pry-color);
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.card p {
+  text-align: left;
+  font-family: "Karla", "Roboto", sans-serif;
+  font-size: 1rem;
+}
