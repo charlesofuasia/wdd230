@@ -200,3 +200,8 @@ section button {
   font-family: "Karla", "Roboto", sans-serif;
   font-size: 1rem;
 }
+#visits {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
