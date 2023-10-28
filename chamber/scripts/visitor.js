@@ -11,12 +11,12 @@ let timeDifference = (presentTime - lastVisit)/ dayInMsecs;
 let visitCount = parseInt(window.localStorage.getItem("pagevisit-ls")) || 0;
 
 if (visitCount == 0){
-    numVisit.textContent = "Welcome to my page! your fist visit";
+    numVisit.textContent = "Welcome! Let us know if you have any questions.";
 }else if (timeDifference < 1) {
-    numVisit.textContent = "Awesome! Back so soon"
+    numVisit.textContent = "Back so soon! Awesome."
 
 }else{
-    numVisit.textContent = `You visited this side ${timeDifference} day${addS(timeDifference)} ago.`;
+    numVisit.textContent = `You last visited ${timeDifference} day${addS(timeDifference)} ago.`;
 };
 
 visitCount++
