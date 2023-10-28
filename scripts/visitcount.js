@@ -1,11 +1,11 @@
-const numVisit = document.querySelector("#visits");
+const visitCounter = document.querySelector("#visit-counter");
 
 let visitCount = parseInt(window.localStorage.getItem("visitcount-ls")) || 0;
 
 if (visitCount != 0){
-    numVisit.textContent = visitCount;
+    visitCounter.textContent = `Number of visits: ${visitCount}`;
 }else{
-    numVisit.textContent = "Welcome to my page! your fist visit";
+    visitCounter.textContent = "Welcome to my page! your fist visit";
 }
 
 visitCount++
