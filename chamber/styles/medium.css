@@ -25,4 +25,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 1rem;
   }
+  #discover-images img:hover {
+    opacity: 0.5;
+  }
 }
