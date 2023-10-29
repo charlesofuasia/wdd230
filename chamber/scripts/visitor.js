@@ -4,7 +4,7 @@ const dayInMsecs = 1000*60*60*24;
 
 let lastVisit = Number(window.localStorage.getItem("lastVisit"));//get lastVisit from local storage, change from string to number.
 let presentTime = Date.now();//gives present time in milliseconds.
-let timeDifference = Math.round((presentTime - lastVisit)/ dayInMsecs);
+let timeDifference = Math.floor((presentTime - lastVisit)/ dayInMsecs);
 
 
 
