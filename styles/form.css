@@ -1,0 +1,30 @@
+form fieldset {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  max-width: 100%;
+}
+form label {
+  display: block;
+  padding-top: 0.75rem;
+}
+form input {
+  display: block;
+  padding: 0.75rem;
+  margin: 0.5rem;
+  width: 100%;
+  max-width: 20rem;
+}
+form {
+  max-width: 100%;
+}
+#submitBtn {
+  background-color: red;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 0.5rem 0 2rem 0.8rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}

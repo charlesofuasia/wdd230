@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Charles Ofuasia" />
+    <meta
+      name="description"
+      content="Charles Ofuasia: WDD 230 - Web Form Design Assignment"
+    />
+    <!--social media meta tags.-->
+    <meta
+      property="og:title"
+      content="Charles Ofuasia - WDD 230 Course Projects"
+    />
+    <meta property="og:type" content="website" />
+
+    <meta
+      property="og:image"
+      content="https://images.pexels.com/photos/1738762/pexels-photo-1738762.jpeg"
+    />
+    <meta
+      property="og:url"
+      content="https://charlesofuasia.github.io/wdd230/"
+    />
+    <title>Charles Ofuasia - WDD 230 - Web Frontend Development</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+  </head>
+  <body>
+    <header>
+      <div id="header-item1">
+        <picture>
+          <source srcset="images/pic-small.webp" media="(max-width: 400px)" />
+          <img
+            src="images/pic-large.webp"
+            alt="my photo"
+            width="195"
+            height="251"
+          />
+        </picture>
+      </div>
+      <div id="header-item2"><h1>Charles Ofuasia</h1></div>
+    </header>
+    <nav>
+      <button id="menu" aria-label="menu"></button>
+      <ul class="navlist">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li>
+          <a href="lesson03/chamber-site-plan.html" target="_blank"
+            >Site Plan</a
+          >
+        </li>
+        <li><a href="chamber/index.html" target="_blank">Chamber</a></li>
+        <li><a href="https://www.byui.edu/" target="_blank">BYU Idaho</a></li>
+        <li>
+          <a
+            href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/5?lang=eng&id=p2#p2"
+            target="_blank"
+            >Scripture</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Visitor Contact</h2>
+      <form action="record.html" method="get">
+        <fieldset>
+          <legend>Visitor Feedback</legend>
+          <label
+            >Username*
+            <input type="text" id="username" name="username" required
+          /></label>
+          <label
+            >Password*
+            <input
+              type="password"
+              id="pw1"
+              name="password"
+              pattern="[a-zA-Z0-9]{8,}"
+              title="minimum of 8 alphanumeric characters"
+              required
+          /></label>
+          <label
+            >Repeat Password* <input type="password" id="pw2" required />
+            <span id="message"></span
+          ></label>
+          <label
+            >Email*
+            <input
+              type="email"
+              id="email"
+              name="email"
+              pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+              title="Please enter a valid byui email address"
+              required
+          /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Rating</legend>
+          <label
+            >Please give your rating below
+            <input
+              type="range"
+              id="rate"
+              name="rating"
+              min="0"
+              max="10"
+              step="1"
+              value="0"
+              list="ratenumber"
+          /></label>
+          <datalist id="ratenumber">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </datalist>
+        </fieldset>
+        <input type="submit" id="submitBtn" value="Confirm Rating" />
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy;<span id="copyDate"></span> Charles Ofuasia</p>
+      <p>Nigeria <span>&#127475; &#127468;</span></p>
+      <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/visitcount.js"></script>
+    <script src="scripts/password.js"></script>
+  </body>
+</html>
