@@ -28,3 +28,9 @@ form {
   border-radius: 1rem;
   cursor: pointer;
 }
+form label input:required {
+  border-left: 8px solid red;
+}
+form label input:required:valid {
+  border-left: 8px solid green;
+}
