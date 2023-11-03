@@ -4,7 +4,7 @@
   --accent1: #3de817;
 }
 form fieldset {
-  margin: 0 auto;
+  margin: 1rem;
   border: 1px solid var(--bod);
   border-radius: 10px;
   padding: 0.5rem 1rem;
