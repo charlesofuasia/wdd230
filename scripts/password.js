@@ -8,9 +8,9 @@ function checkPassword(){
     if (secondPassword.value != firstPassword.value){
         message.innerHTML = "Passwords are not the same.";
         secondPassword.innerHTML ="";
-        secondPassword.blur();
+        secondPassword.focus();
     }else{
         message.innerHTML = "";
     }
-    secondPassword.focus();
+    
 };
