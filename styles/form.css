@@ -1,6 +1,11 @@
+:root {
+  --priority: #992525;
+  --bod: #1f1717;
+  --accent1: #3de817;
+}
 form fieldset {
   margin: 0 auto;
-  border: 1px solid black;
+  border: 1px solid var(--bod);
   border-radius: 10px;
   padding: 0.5rem 1rem;
   max-width: 100%;
@@ -20,7 +25,7 @@ form {
   max-width: 100%;
 }
 #submitBtn {
-  background-color: red;
+  background-color: var(--priority);
   color: white;
   padding: 0.5rem 1rem;
   border: none;
@@ -32,5 +37,5 @@ form label input:required {
   border-left: 8px solid red;
 }
 form label input:required:valid {
-  border-left: 8px solid green;
+  border-left: 8px solid var(--accent1);
 }
