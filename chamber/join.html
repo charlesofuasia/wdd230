@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Charles Ofuasia" />
+    <meta
+      name="description"
+      content="Official Website of Lekki Chamber of Commerce"
+    />
+
+    <title>Lekki Chamber of Commerce</title>
+
+    <!--social media tags-->
+    <meta
+      property="og:title"
+      content="Official Website of Lekki Chamber of Commerce."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://charlesofuasia.github.io/wdd230/chamber/images/chamber_hero.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://charlesofuasia.github.io/wdd230/chamber/"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Roboto&family=Rubik:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--favicon links-->
+    <link rel="icon" href="lekki-favicon.ico" />
+    <!--CSS styling links-->
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+  </head>
+  <body>
+    <header>
+      <p>info@lekkichamberofcommerce.com</p>
+      <img
+        src="images/chamber_logo.webp"
+        alt="The logo of Lekki Chamber of Commerce"
+        width="150"
+        height="150"
+      />
+      <h1>Lekki Chamber of Commerce</h1>
+      <div id="mode">🕶️</div>
+    </header>
+    <nav>
+      <button id="menu" aria-label="menu-list"></button>
+
+      <ul class="navlist">
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Events</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Membership Application</h2>
+      <section>
+        <h3>Application Form</h3>
+        <form action="thankyou.html" method="get">
+          <fieldset>
+            <legend>Personal Details</legend>
+            <div>* Indicates required field</div>
+            <label class="top"
+              >First Name* <input type="text" id="fname" name="fname" required
+            /></label>
+            <label class="top"
+              >Last Name* <input type="text" id="lname" name="lname" required
+            /></label>
+            <label class="top"
+              >Title/Position
+              <input
+                type="text"
+                id="title"
+                name="title"
+                pattern="[a-zA-Z\s\-]{7,}"
+            /></label>
+            <label class="top"
+              >Email*
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="person@email.com"
+                required
+            /></label>
+            <label class="top"
+              >Mobile Number*
+              <input type="tel" id="phone" name="phone" required
+            /></label>
+            <label class="top"
+              >Company/Business Name*
+              <input type="text" id="company" name="company" required
+            /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Membership</legend>
+            <div>Membership</div>
+            <label class="sbs"
+              ><input type="radio" name="membership" value="np" />Non
+              Profit</label
+            >
+            <label class="sbs"
+              ><input
+                type="radio"
+                name="membership"
+                value="bronce"
+              />Bronze</label
+            >
+            <label class="sbs"
+              ><input
+                type="radio"
+                name="membership"
+                value="silver"
+              />Silver</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="gold" />Gold</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Business Description</legend>
+            <label class="top"
+              >Brief Description of Business/Company
+              <textarea
+                name="business-description"
+                id="business-description"
+                cols="30"
+                rows="7"
+              >
+Briefly describe your business activity type...</textarea
+              >
+            </label>
+          </fieldset>
+          <time type="hidden" id="time" name="time"></time>
+          <label
+            ><input type="submit" id="submitBtn" value="Apply to Join"
+          /></label>
+        </form>
+      </section>
+      <section>
+        <h3>Membership Types and Benefits</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+          tenetur repudiandae nobis tempora minima et?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+          tenetur repudiandae nobis tempora minima et?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+          tenetur repudiandae nobis tempora minima et?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+          tenetur repudiandae nobis tempora minima et?
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p>&copy;<span id="copyDate"></span> Charles Ofuasia</p>
+        <p>WDD 230 Class Project</p>
+        <p>info@lekkichamberofcommerce.com</p>
+      </div>
+      <div>
+        <a href="http://www.facebook.com"
+          ><img
+            src="images/facebook.webp"
+            alt="facebook icon "
+            width="64"
+            height="64"
+            loading="lazy"
+        /></a>
+        <a href="http://www.twitter.com"
+          ><img
+            src="images/twitter.webp"
+            alt="twitter icon"
+            width="64"
+            height="64"
+            loading="lazy"
+        /></a>
+      </div>
+      <p id="lastModified"></p>
+    </footer>
+    <script type="module" src="scripts/datesetter.js"></script>
+    <script type="module" src="scripts/navigation.js"></script>
+    <script type="module" src="scripts/modes.js"></script>
+    <script type="module" src="scripts/windchill.js"></script>
+  </body>
+</html>
