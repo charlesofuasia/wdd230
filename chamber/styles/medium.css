@@ -28,4 +28,12 @@
   #discover-images img:hover {
     opacity: 0.5;
   }
+  #form-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  #form-div > h2 {
+    grid-column: 1/3;
+  }
 }

@@ -205,3 +205,72 @@ section button {
   font-size: 1.2rem;
   font-weight: bold;
 }
+#form-div {
+  max-width: 100%;
+}
+#form-div .enclose {
+  border: 1px solid var(--pry-color);
+  margin: 0.5rem auto;
+  padding: 0.75rem;
+  max-width: 100%;
+}
+#form-div h2,
+#form-div h3 {
+  margin: 0;
+}
+form fieldset {
+  border: 1px solid var(--sec-color);
+  padding: 0.8rem;
+  border-radius: 10px;
+  margin: 1rem;
+  max-width: 100%;
+}
+form legend {
+  padding: 0 0.6rem;
+}
+form label.top {
+  display: block;
+  padding-top: 0.9rem;
+  text-align: left;
+}
+form label.top input {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  padding: 0.6rem;
+}
+form label.sbs {
+  display: block;
+  padding-top: 0.6rem;
+  text-align: left;
+}
+form label.top input:required {
+  border-left: 10px solid red;
+}
+form label.top input:required:valid {
+  border-left: 6px solid green;
+}
+form #submitBtn {
+  background-color: var(--pry-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+table {
+  margin: 2rem auto;
+  border: 1px solid var(--sec-color);
+  border-collapse: collapse;
+}
+caption {
+  caption-side: bottom;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+}
+td {
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  border: 1px solid #f2dfdfe1;
+}
+tr :nth-child(odd) {
+  background-color: #blue;
+}
