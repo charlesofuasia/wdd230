@@ -63,109 +63,165 @@
     </nav>
 
     <main>
-      <h2>Membership Application</h2>
-      <section>
-        <h3>Application Form</h3>
-        <form action="thankyou.html" method="get">
-          <fieldset>
-            <legend>Personal Details</legend>
-            <div>* Indicates required field</div>
-            <label class="top"
-              >First Name* <input type="text" id="fname" name="fname" required
-            /></label>
-            <label class="top"
-              >Last Name* <input type="text" id="lname" name="lname" required
-            /></label>
-            <label class="top"
-              >Title/Position
-              <input
-                type="text"
-                id="title"
-                name="title"
-                pattern="[a-zA-Z\s\-]{7,}"
-            /></label>
-            <label class="top"
-              >Email*
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="person@email.com"
-                required
-            /></label>
-            <label class="top"
-              >Mobile Number*
-              <input type="tel" id="phone" name="phone" required
-            /></label>
-            <label class="top"
-              >Company/Business Name*
-              <input type="text" id="company" name="company" required
-            /></label>
-          </fieldset>
-          <fieldset>
-            <legend>Membership</legend>
-            <div>Membership</div>
-            <label class="sbs"
-              ><input type="radio" name="membership" value="np" />Non
-              Profit</label
-            >
-            <label class="sbs"
-              ><input
-                type="radio"
-                name="membership"
-                value="bronce"
-              />Bronze</label
-            >
-            <label class="sbs"
-              ><input
-                type="radio"
-                name="membership"
-                value="silver"
-              />Silver</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="membership" value="gold" />Gold</label
-            >
-          </fieldset>
-          <fieldset>
-            <legend>Business Description</legend>
-            <label class="top"
-              >Brief Description of Business/Company
-              <textarea
-                name="business-description"
-                id="business-description"
-                cols="30"
-                rows="7"
+      <div id="form-div">
+        <h2>Membership Application</h2>
+        <div class="enclose">
+          >
+          <h3>Application Form</h3>
+          <form action="thankyou.html" method="get">
+            <fieldset>
+              <legend>Personal Details</legend>
+              <div>* Indicates required field</div>
+              <label class="top"
+                >First Name*
+                <input type="text" id="fname" name="fname" required
+              /></label>
+              <label class="top"
+                >Last Name* <input type="text" id="lname" name="lname" required
+              /></label>
+              <label class="top"
+                >Title/Position
+                <input
+                  type="text"
+                  id="title"
+                  name="title"
+                  pattern="[a-zA-Z\s\-]{7,}"
+              /></label>
+              <label class="top"
+                >Email*
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="person@email.com"
+                  required
+              /></label>
+              <label class="top"
+                >Mobile Number*
+                <input type="tel" id="phone" name="phone" required
+              /></label>
+              <label class="top"
+                >Company/Business Name*
+                <input type="text" id="company" name="company" required
+              /></label>
+            </fieldset>
+            <fieldset>
+              <legend>Membership</legend>
+              <div>Membership</div>
+              <label class="sbs"
+                ><input type="radio" name="membership" value="np" />Non
+                Profit</label
               >
+              <label class="sbs"
+                ><input
+                  type="radio"
+                  name="membership"
+                  value="bronce"
+                />Bronze</label
+              >
+              <label class="sbs"
+                ><input
+                  type="radio"
+                  name="membership"
+                  value="silver"
+                />Silver</label
+              >
+              <label class="sbs"
+                ><input
+                  type="radio"
+                  name="membership"
+                  value="gold"
+                />Gold</label
+              >
+            </fieldset>
+            <fieldset>
+              <legend>Business Description</legend>
+              <label class="top"
+                >Brief Description of Business/Company
+                <textarea
+                  name="business-description"
+                  id="business-description"
+                  cols="30"
+                  rows="7"
+                >
 Briefly describe your business activity type...</textarea
-              >
-            </label>
-          </fieldset>
-          <time type="hidden" id="time" name="time"></time>
-          <label
-            ><input type="submit" id="submitBtn" value="Apply to Join"
-          /></label>
-        </form>
-      </section>
-      <section>
-        <h3>Membership Types and Benefits</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-          tenetur repudiandae nobis tempora minima et?
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-          tenetur repudiandae nobis tempora minima et?
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-          tenetur repudiandae nobis tempora minima et?
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-          tenetur repudiandae nobis tempora minima et?
-        </p>
-      </section>
+                >
+              </label>
+            </fieldset>
+            <time type="hidden" id="time" name="time"></time>
+            <label
+              ><input type="submit" id="submitBtn" value="Apply to Join"
+            /></label>
+          </form>
+        </div>
+        <div class="enclose">
+          <table>
+            <caption>
+              Lekki Chamber Membership Benefits and Fees
+            </caption>
+            <thead>
+              <tr>
+                <td></td>
+                <th>Non-Profit</th>
+                <th>Bronze</th>
+                <th>Silver</th>
+                <th>Gold</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Free Business Training</th>
+                <td>✔️</td>
+                <td>✔️</td>
+                <td>✔️</td>
+                <td>✔️</td>
+              </tr>
+              <tr>
+                <th>Free Admission to Annual Ball</th>
+                <td>❌</td>
+                <td>✔️</td>
+                <td>✔️</td>
+                <td>✔️</td>
+              </tr>
+              <tr>
+                <th>Free Quarterly Classified ADS on Chamber Website</th>
+                <td>❌</td>
+                <td>✔️</td>
+                <td>✔️</td>
+                <td>✔️</td>
+              </tr>
+              <tr>
+                <th>Free Weekly Classified Ads on Chamber Website</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔️</td>
+                <td>✔️</td>
+              </tr>
+              <tr>
+                <th>Free Daily Classified Ads on Chamber website</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔️</td>
+              </tr>
+              <tr>
+                <th>Free Access to VIP lounge of Chamber</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔️</td>
+              </tr>
+              <tr>
+                <th>Annual Membership Due</th>
+                <td>&#8358;0.00</td>
+                <td>&#8358;2,500.00</td>
+                <td>&#8358;5,000.00</td>
+                <td>&#8358;10,000.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </main>
     <footer>
       <div>
