@@ -213,10 +213,7 @@ main #form-div {
   border: 1px solid var(--pry-color);
   margin: 0.5rem auto;
   padding: 0.75rem;
-}
-#form-div h2,
-#form-div h3 {
-  margin: 0;
+  max-width: 100%;
 }
 form fieldset {
   border: 1px solid var(--sec-color);
@@ -243,6 +240,9 @@ form label.sbs {
   padding-top: 0.6rem;
   text-align: left;
 }
+form label.top textarea {
+  text-align: left;
+}
 form label.top input:required {
   border-left: 10px solid red;
 }
@@ -254,28 +254,24 @@ form #submitBtn {
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
+  width: 90%;
+  max-width: 20rem;
+  margin: 0 0 2rem 0.75rem;
+  cursor: pointer;
 }
-table {
-  margin: 2rem auto;
-  border: 1px solid #d3dadb;
-  border-collapse: collapse;
-  width: 100%;
+#membership div {
+  max-width: 100%;
 }
-caption {
-  caption-side: bottom;
-  padding: 1rem 2rem;
-  font-size: 0.9rem;
+#form-div p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
-td {
-  padding: 0.75rem 1.5rem;
-  text-align: center;
-  border: 1px solid #d3dadb;
-}
-body tr:nth-child(even) {
-  background-color: #d3dadb;
-}
-thead {
-  background-color: var(--sec-color);
-  color: #fff;
-  padding: 0.75rem 1.5rem;
+#form-div ul li {
+  text-align: left;
+  list-style: circle;
+  padding-top: 0.5rem;
 }
