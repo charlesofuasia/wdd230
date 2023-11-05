@@ -1,6 +1,7 @@
 // Get the current year and append it to the <span> HTML element 
 // with the id #copyDate
 const date = new Date();
+const timeStamp = document.querySelector("#timestamp");
 let year = date.getFullYear()
 document.querySelector("#copyDate").textContent = year;
 
@@ -8,3 +9,5 @@ document.querySelector("#copyDate").textContent = year;
 const mDate = new Date(document.lastModified);
 
 document.querySelector("#lastModified").innerHTML = `Last modified: ${mDate}`;
+
+timeStamp.value = Date.now();
