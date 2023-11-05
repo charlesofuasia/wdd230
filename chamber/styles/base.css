@@ -205,14 +205,14 @@ section button {
   font-size: 1.2rem;
   font-weight: bold;
 }
-#form-div {
+main #form-div {
   max-width: 100%;
 }
-#form-div .enclose {
+
+#form-div.enclose {
   border: 1px solid var(--pry-color);
   margin: 0.5rem auto;
   padding: 0.75rem;
-  max-width: 100%;
 }
 #form-div h2,
 #form-div h3 {
@@ -223,7 +223,6 @@ form fieldset {
   padding: 0.8rem;
   border-radius: 10px;
   margin: 1rem;
-  max-width: 100%;
 }
 form legend {
   padding: 0 0.6rem;
@@ -258,8 +257,9 @@ form #submitBtn {
 }
 table {
   margin: 2rem auto;
-  border: 1px solid var(--sec-color);
+  border: 1px solid #d3dadb;
   border-collapse: collapse;
+  width: 100%;
 }
 caption {
   caption-side: bottom;
@@ -269,8 +269,13 @@ caption {
 td {
   padding: 0.75rem 1.5rem;
   text-align: center;
-  border: 1px solid #f2dfdfe1;
+  border: 1px solid #d3dadb;
 }
-tr :nth-child(odd) {
-  background-color: #blue;
+body tr:nth-child(even) {
+  background-color: #d3dadb;
+}
+thead {
+  background-color: var(--sec-color);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
 }
