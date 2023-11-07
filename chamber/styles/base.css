@@ -205,14 +205,19 @@ section button {
   font-size: 1.2rem;
   font-weight: bold;
 }
-main #form-div {
+#join {
+  margin: 0 auto;
+  display: block;
   max-width: 100%;
+}
+#join h2 {
+  margin-top: 0;
 }
 
 #form-div.enclose {
   border: 1px solid var(--pry-color);
-  margin: 0.5rem auto;
-  padding: 0.75rem;
+  margin: 1rem;
+  padding: 1rem;
   max-width: 100%;
 }
 form fieldset {
@@ -242,6 +247,8 @@ form label.sbs {
 }
 form label.top textarea {
   text-align: left;
+  resize: none;
+  width: 100%;
 }
 form label.top input:required {
   border-left: 10px solid red;
@@ -259,19 +266,16 @@ form #submitBtn {
   margin: 0 0 2rem 0.75rem;
   cursor: pointer;
 }
-#membership div {
-  max-width: 100%;
-}
 #form-div p {
   font-size: 1.2rem;
   font-weight: bold;
-  margin: 0;
+  margin: 0 aoto;
   text-align: left;
-  margin: 0;
   padding: 0;
 }
 #form-div ul li {
   text-align: left;
   list-style: circle;
   padding-top: 0.5rem;
+  max-width: 100%;
 }
