@@ -1,0 +1,75 @@
+{
+    "learningActivities": [
+        {
+        "lesson": "01",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson01/media-query.html",
+        "name": "Media Query"
+    },
+    {
+        "lesson": "02a",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson02/design.html",
+        "name": "Design Principles"
+    },
+    {
+        "lesson": "2b",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson02/design-principles.html",
+        "name": "Design Principles Document"
+    },
+    {
+        "lesson": "03",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson03/lesson03.html",
+        "name": "Lesson 03 Exercises"
+    },
+    {
+        "lesson": "04",
+        "weblink": "https://codepen.io/Charles-Ofuasia/pen/rNoQqrj",
+        "name": "CSS Pseudo Classes"
+    },
+    {
+        "lesson": "05",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson05/bom.html",
+        "name": "Book of Mormon Favorite Chapters"
+    },
+    {
+        "lesson": "06a",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson06/images/landscape.webp",
+        "name": "WebP"
+    },
+    {
+        "lesson": "06b",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson06/responsive-images.html",
+        "name": "Responsive Temple Image"
+    },
+    {
+        "lesson": "07a",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson03/lazyload.html",
+        "name": "Lazy Loading Demonstration"
+    },
+    {
+        "lesson": "07b",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson07/bom.html",
+        "name": "Book of Mormon Local Storage"
+    },
+    {
+        "lesson": "08a",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson08/tablebuild.html",
+        "name": "Table Design"
+    },
+    {
+        "lesson": "08b",
+        "weblink": "https://charlesofuasia.github.io/wdd230/form.html",
+        "name": "Form Assignment"
+    },
+    {
+        "lesson": "09a",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson05/new-ward-members.json",
+        "name": "JSON File Example"
+    },
+    {
+        "lesson": "09b",
+        "weblink": "https://charlesofuasia.github.io/wdd230/lesson09/prophets.html",
+        "name": "Latter-day Saints Prophets."
+    }
+
+    ]
+}
