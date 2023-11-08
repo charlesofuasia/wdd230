@@ -1,0 +1,28 @@
+{
+    "familyName": "Ofuasia",
+    "dateMovedIn": "12/14/2020",
+    "numberOfRecords": 4,
+    "visitedByBishopric": true,
+    "members":[
+        {
+            "name": "Charles Ofuasia",
+            "gender": "males",
+            "birthday": "29/01/1972"
+        },
+        {
+            "name": "Gladys Ofuasia",
+            "gender": "female",
+            "birthday": "6/22/1972"
+        },
+        {
+            "name": "Gaihu Ofuasia",
+            "gender": "male",
+            "birthday": "11/7/2001"
+        },
+        {
+            "name": "Ifolo Ofuasia",
+            "gender": "male",
+            "birthday": "3/13/2003"
+        }
+    ]
+}
