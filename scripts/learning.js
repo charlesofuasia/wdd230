@@ -13,6 +13,7 @@ const loadList = (learningActivities) => {
         let list = document.createElement('li');
         let link = document.createElement('a');
         link.textContent = activity.name;
+        link.target = "_blank"
         link.href = activity.weblink;
         list.appendChild(link);
         activityList.append(list);
