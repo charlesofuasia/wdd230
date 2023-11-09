@@ -1,0 +1,76 @@
+{
+    "members": [
+        {
+            "name": "Gibbs Opticians",
+            "address": "Office Depot St., Sangotedo",
+            "phone": "08032418148",
+            "website": "gibbsopticians.com",
+            "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/gibbs.webp",
+            "membership": "Gold",
+            "description": "Optometrists, Dispensing Opticians"
+        },
+        {
+            "name": "Nulife Water",
+            "address": "Lufasi Nature Park",
+            "phone": "070010000000",
+            "website": "www.nulifewater.com",
+            "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/nulife.webp",
+            "membership": "Silver",
+            "description": "Producers of table water"
+        },
+        {
+            "name": "Giant Truckers",
+            "address": "Lekki Free Zone",
+            "phone": "07023000000",
+            "website": "gianttruckers.com",
+            "imageurl":"https://charlesofuasia.github.io/wdd230/chamber/images/giant.webp",
+            "membership":"Gold",
+            "description": "Haulage and logistics services"
+        },
+        {
+            "name": "Nerd's Hub",
+            "address": "Lekki CBD",
+            "phone": "0702400000000",
+            "website": "nerdshub.com",
+            "imageurl":"https://charlesofuasia.github.io/wdd230/chamber/images/nerd.webp",
+            "membership":"Gold",
+            "description": "Co-working space and business center."
+        },
+        {
+            "name": "Zim Technologies",
+            "address": "Lekki Free Zone",
+            "phone":"070010000001",
+            "website": "zimtech.com",
+            "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/zimtech.webp",
+            "membership":"Gold",
+            "description": "Business software developers"
+        },
+        {
+            "name": "Rehoboth Homes",
+            "address": "Green Springs Avenue",
+            "phone": "070420010000",
+            "website": "rehoboth.com",
+            "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/rehoboth.webp",
+            "membership": "Silver",
+            "description": "Property developers and realtors."
+        },
+        {
+            "name": "Sgetch Designs",
+            "address": "3 Lugard Drive, Ikoyi",
+            "phone": "070110000000",
+            "website": "sgetch.com",
+            "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/sgetch.webp",
+            "membership":"Gold",
+            "description": "Architects and Builders"
+        },
+        {
+            "name": "Blue Heights Hotel",
+            "address": "Alpha Beach Boulevard",
+            "phone": "070010000005",
+            "website": "blueheights.com",
+            "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/blue.webp",
+            "membership": "Bronze",
+            "description": "Clean and affordable budget hotel."
+        }
+    ]
+}
