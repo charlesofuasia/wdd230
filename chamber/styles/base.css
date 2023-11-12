@@ -279,3 +279,15 @@ form #submitBtn {
   padding-top: 0.5rem;
   max-width: 100%;
 }
+/*Styling for directory*/
+#directory {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  width: 100%;
+}
+#directory.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

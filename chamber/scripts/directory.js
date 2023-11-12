@@ -18,9 +18,10 @@ function displayMembers(arr){
         let link = document.createElement('a');
         let description = document.createElement('p');
         let grade = document.createElement('p');
+        card.classList.add("card");
 
         header.innerHTML = member.name;
-        logo.src = member.imagerl;
+        logo.src = member.imageurl;
         logo.alt = `image of ${member.name} logo`;
         logo.loading = "lazy";
         logo.width = "375";
@@ -29,7 +30,7 @@ function displayMembers(arr){
         address.textContent = member.address;
         phone.textContent = member.phone;
         description.textContent = member.description;
-        grade.innerHTML = member.membership;
+        grade.innerHTML = `Membership Level: ${member.membership}`;
 
         card.appendChild(header);
         card.appendChild(logo);
@@ -40,6 +41,7 @@ function displayMembers(arr){
         card.appendChild(grade);
 
         main.append(card);
+
 
 
 
