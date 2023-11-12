@@ -46,15 +46,6 @@
             "description": "Business software developers"
         },
         {
-            "name": "Rehoboth Homes",
-            "address": "Green Springs Avenue",
-            "phone": "070420010000",
-            "website": "http://www.rehoboth.com",
-            "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/rehoboth.webp",
-            "membership": "Silver",
-            "description": "Property developers and realtors."
-        },
-        {
             "name": "Sgetch Designs",
             "address": "3 Lugard Drive, Ikoyi",
             "phone": "070110000000",
