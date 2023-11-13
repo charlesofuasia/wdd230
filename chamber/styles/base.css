@@ -280,14 +280,31 @@ form #submitBtn {
   max-width: 100%;
 }
 /*Styling for directory*/
+#members {
+  display: block;
+}
+.btns {
+  margin: 1rem;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+#btn-box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 #directory {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
   width: 100%;
 }
-#directory.card img {
+#directory .card img {
   display: block;
   width: 100%;
   height: auto;
+}
+.list section img {
+  display: none;
 }

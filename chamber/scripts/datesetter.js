@@ -9,5 +9,3 @@ document.querySelector("#copyDate").textContent = year;
 const mDate = new Date(document.lastModified);
 
 document.querySelector("#lastModified").innerHTML = `Last modified: ${mDate}`;
-
-timeStamp.value = Date.now();

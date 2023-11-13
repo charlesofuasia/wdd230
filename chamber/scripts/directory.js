@@ -1,5 +1,18 @@
-const main = document.querySelector('#directory');
+const directory = document.querySelector('#directory');
+const gridBtn = document.querySelector('#grid');
+const listBtn = document.querySelector('#list');
 const url = "https://charlesofuasia.github.io/wdd230/chamber/members.json";
+
+
+gridBtn.addEventListener('click', () => {
+    directory.classList.add('grid');
+    directory.classList.remove('list');
+});
+
+listBtn.addEventListener('click', () => {
+    directory.classList.add('list');
+    directory.classList.remove('grid');
+})
 
 async function getCards(){
     const response = await fetch(url);
@@ -40,7 +53,7 @@ function displayMembers(arr){
         card.appendChild(description);
         card.appendChild(grade);
 
-        main.append(card);
+        directory.append(card);
 
 
 
