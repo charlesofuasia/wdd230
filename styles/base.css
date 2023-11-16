@@ -95,6 +95,7 @@ footer p {
   font-size: 1.2rem;
   background-color: #ffe0e0;
   border: solid 2px #515073;
+  border-radius: 10px;
 }
 
 .card li a {
@@ -160,10 +161,26 @@ iframe {
 }
 #weather {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
+  padding: 1rem;
 }
 #temp {
   font-family: "Roboto", sans-serif;
   font-size: 2.5rem;
+  padding: 1rem;
+}
+#weather figcaption {
+  padding-top: -5px;
+}
+#weather figure {
+  padding-left: 1rem;
+  border-left: 2px solid #000;
+  margin-left: 0;
+}
+#info h4 {
+  text-align: center;
+}
+#visit-counter {
+  padding: 1rem 2rem;
 }
