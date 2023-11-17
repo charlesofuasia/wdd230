@@ -10,7 +10,6 @@ async function getWeatherInfo(){
         const response = await fetch(weatherurl);
         if(response.ok){
             const data = await response.json();
-            console.log(data.sys.country);
             setWeather(data);
         }else{
             throw Error(await response.text());
@@ -24,8 +23,10 @@ async function getWeatherInfo(){
 function setWeather(data){
     temperature.innerHTML = `${Math.round(data.main.temp)}&deg;F`
     let iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    weatherIcon.setAttribute('src', iconsrc);
     let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', `icon for ${desc}`);
+    
     description.textContent = desc;
     header.textContent = `${data.name}, ${data.sys.country}`
 }
