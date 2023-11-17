@@ -72,6 +72,10 @@ h1 {
 .active::after {
   content: " 🪲";
 }
+.card ul li {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
 
 li {
   list-style-type: none;
