@@ -1,4 +1,4 @@
-const weatherForecast = document.querySelector('#forecast');
+
 const url = "https://api.openweathermap.org/data/2.5/forecast?lat=6.27&lon=3.39&units=imperial&appid=6884df5e492c8ff4980c6b3a650eb8a0";
 const weatherInfo = document.querySelector('#weather');
 
@@ -31,6 +31,7 @@ function loadForecast(data){
    const forecastHead = document.createElement('h3');
    const iconsource = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
    const todayDesc = data.list[0].weather[0].description;
+   
 
 
    speed.textContent = `Wind Speed: ${data.list[0].wind.speed} mph`;
@@ -39,6 +40,7 @@ function loadForecast(data){
 
 
    weatherHead.textContent = "Current Weather"
+   forecastHead.textContent = "3-Day Forecast"
    dayIcon.setAttribute('src', iconsource);
    dayIcon.setAttribute('alt', `Icon for ${todayDesc}`);
    dayNum.innerHTML = `${Math.round(data.list[0].main.temp)}&deg;F`;
@@ -64,8 +66,40 @@ function loadForecast(data){
    weatherCard.appendChild(speed);
    weatherCard.appendChild(speed);
    weatherCard.appendChild(chill);
-   weatherInfo.append(weatherCard);
- 
+   weatherCard.appendChild(forecastHead);
+
+   let i = 8;
+   while( i < 25){
+    let forecastWeather = document.createElement('div');
+    let forecasteDate = document.createElement('span');
+    let forecastIcon = document.createElement('img');
+    let forecastNum = document.createElement('span');
+    let forecastDescr = document.createElement('span');
+
+    let dateStr = data.list[i].dt_txt;
+    dateStr = dateStr.substring(0,10);
+  
+     forecasteDate.textContent = dateStr;
+
+     let forecastIconImage = `https://openweathermap.org/img/w/${data.list[i].weather[0].icon}.png`;
+     let fDesc = ` ${data.list[i].weather[0].description}`;
+     forecastIcon.setAttribute('src', forecastIconImage);
+     forecastIcon.setAttribute('alt', `icon for ${fDesc}`);
+     forecastNum.innerHTML = `${data.list[i].main.temp}&deg;F`
+     forecastDescr.textContent = fDesc;
+     
+     forecastWeather.appendChild(forecasteDate);
+     forecastWeather.appendChild(forecastIcon);
+     forecastWeather.appendChild(forecastNum);
+     forecastWeather.appendChild(forecastDescr);
+     weatherCard.appendChild(forecastWeather);
+     i += 8;    
+
+   } 
+   
+
+   
+  weatherInfo.append(weatherCard);
 }
 
 getData();
