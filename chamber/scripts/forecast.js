@@ -32,13 +32,8 @@ function loadForecast(data){
    const iconsource = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
    const todayDesc = data.list[0].weather[0].description;
    
-
-
    speed.textContent = `Wind Speed: ${data.list[0].wind.speed} mph`;
    
-
-
-
    weatherHead.textContent = "Current Weather"
    forecastHead.textContent = "3-Day Forecast"
    dayIcon.setAttribute('src', iconsource);

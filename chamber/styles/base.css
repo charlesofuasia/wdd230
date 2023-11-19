@@ -45,9 +45,6 @@ header p {
   margin-bottom: 1rem;
   font-size: 0.9rem;
 }
-header p::before {
-  content: "✉️ ";
-}
 nav {
   background-color: var(--sec-color);
   padding: 1rem;
@@ -299,4 +296,14 @@ form #submitBtn {
 }
 .list section img {
   display: none;
+}
+
+#temp {
+  font-size: 1.8rem;
+}
+#banner.bnclose {
+  display: none;
+}
+#banner.bnshow {
+  display: block;
 }
