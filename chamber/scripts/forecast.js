@@ -27,7 +27,7 @@ function loadForecast(data){
    const chill = document.createElement('p');
    dayNum.setAttribute('id', 'temp');
    const dayDescr = document.createElement('span');
-   const weatherHead = document.createElement('h3');
+   const weatherHead = document.createElement('h2');
    const forecastHead = document.createElement('h3');
    const iconsource = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
    const todayDesc = data.list[0].weather[0].description;
@@ -66,6 +66,7 @@ function loadForecast(data){
    let i = 8;
    while( i < 25){
     let forecastWeather = document.createElement('div');
+    forecastWeather.classList.add('weather-display');
     let forecasteDate = document.createElement('span');
     let forecastIcon = document.createElement('img');
     let forecastNum = document.createElement('span');
@@ -77,10 +78,10 @@ function loadForecast(data){
      forecasteDate.textContent = dateStr;
 
      let forecastIconImage = `https://openweathermap.org/img/w/${data.list[i].weather[0].icon}.png`;
-     let fDesc = ` ${data.list[i].weather[0].description}`;
+     let fDesc = `  ${data.list[i].weather[0].description}`;
      forecastIcon.setAttribute('src', forecastIconImage);
      forecastIcon.setAttribute('alt', `icon for ${fDesc}`);
-     forecastNum.innerHTML = `${data.list[i].main.temp}&deg;F`
+     forecastNum.innerHTML = `${Math.round(data.list[i].main.temp)}&deg;F`
      forecastDescr.textContent = fDesc;
      
      forecastWeather.appendChild(forecasteDate);

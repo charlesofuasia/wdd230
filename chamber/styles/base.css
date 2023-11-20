@@ -292,6 +292,12 @@ form #submitBtn {
 #temp {
   font-size: 1.8rem;
 }
+#weather .weather-display {
+  display: grid;
+  grid-template-columns: 1fr auto auto 1fr;
+  gap: 0.5rem;
+  align-items: right;
+}
 #banner.bnclose {
   display: none;
 }
