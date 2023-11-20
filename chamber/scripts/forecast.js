@@ -38,6 +38,8 @@ function loadForecast(data){
    forecastHead.textContent = "3-Day Forecast"
    dayIcon.setAttribute('src', iconsource);
    dayIcon.setAttribute('alt', `Icon for ${todayDesc}`);
+   dayIcon.setAttribute('width', '50');
+   dayIcon.setAttribute('height', '50');
    dayNum.innerHTML = `${Math.round(data.list[0].main.temp)}&deg;F`;
    let indexOftempType = dayNum.innerHTML.length - 1;
    let temperature = Number(data.list[0].main.temp);
@@ -81,6 +83,8 @@ function loadForecast(data){
      let fDesc = `  ${data.list[i].weather[0].description}`;
      forecastIcon.setAttribute('src', forecastIconImage);
      forecastIcon.setAttribute('alt', `icon for ${fDesc}`);
+     forecastIcon.setAttribute('width', '50');
+     forecastIcon.setAttribute('height', '50')
      forecastNum.innerHTML = `${Math.round(data.list[i].main.temp)}&deg;F`
      forecastDescr.textContent = fDesc;
      
