@@ -298,6 +298,16 @@ form #submitBtn {
   gap: 0.5rem;
   align-items: right;
 }
+#weather img {
+  width: 100%;
+  height: auto;
+}
+#weather div:first-of-type {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 1rem;
+  align-items: center;
+}
 #banner.bnclose {
   display: none;
 }

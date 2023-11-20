@@ -55,7 +55,7 @@ function loadForecast(data){
    }
    chill.textContent = `Wind Chill: ${tC}`;
    dayDescr.textContent = `  ${todayDesc}`;
-    weatherNow.appendChild(weatherHead)
+   weatherCard.appendChild(weatherHead);
    weatherNow.appendChild(dayIcon);
    weatherNow.appendChild(dayNum);
    weatherNow.appendChild(dayDescr);
