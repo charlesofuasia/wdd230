@@ -319,4 +319,5 @@ form #submitBtn {
   opacity: 0.7;
   border-radius: 10px;
   padding: 0;
+  position: fixed;
 }
