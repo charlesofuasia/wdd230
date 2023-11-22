@@ -288,7 +288,7 @@ form #submitBtn {
 .dir-list img {
   display: none;
 }
-.dir-list section {
+.dir-list div {
   display: block;
 }
 .dir-grid img {

@@ -1,4 +1,4 @@
-const directory = document.querySelector('#directory');
+const directory = document.querySelector('.dir-grid');
 const gridBtn = document.querySelector('#grid');
 const listBtn = document.querySelector('#list');
 const url = "data/members.json";
@@ -6,13 +6,13 @@ const url = "data/members.json";
 
 gridBtn.addEventListener('click', () => {
     directory.classList.add('dir-grid');
-    directory.classList.remove('list');
+    directory.classList.remove('dir-list');
 });
 
 listBtn.addEventListener('click', () => {
     directory.classList.add('dir-list');
     directory.classList.remove('dir-grid');
-})
+});
 
 async function getCards(){
     const response = await fetch(url);
@@ -23,7 +23,7 @@ async function getCards(){
 
 function displayMembers(arr){
     arr.forEach((member) =>{
-        let card = document.createElement('section');
+        let card = document.createElement('div');
         let header = document.createElement('h2');
         let logo = document.createElement('img');
         let address = document.createElement('p');
@@ -50,8 +50,8 @@ function displayMembers(arr){
         card.appendChild(link);
         card.appendChild(address);
         card.appendChild(phone);
-        card.appendChild(description);
-        card.appendChild(grade);
+        //card.appendChild(description);
+        //card.appendChild(grade);
 
         directory.append(card);
 

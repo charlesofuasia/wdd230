@@ -9,4 +9,24 @@
   footer div:first-child {
     text-align: left;
   }
+  .dir-list div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    word-wrap: break-word;
+    text-align: center;
+    align-items: center;
+    border: none;
+  }
+  .dir-list div p,
+  .dir-list div a {
+    font-size: 1.5rem;
+  }
+  .dir-list div:nth-of-type(odd) {
+    background-color: var(--sub-bg);
+  }
+  .dir-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 }
