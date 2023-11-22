@@ -296,7 +296,7 @@ form #submitBtn {
   display: grid;
   grid-template-columns: 1fr auto auto 1fr;
   gap: 0.5rem;
-  align-items: right;
+  align-items: end;
 }
 #weather img {
   width: 100%;
