@@ -101,19 +101,17 @@ a {
   left: 0;
   top: 1rem;
 }
-#hero button {
+#hero #join-us {
   position: absolute;
   right: 50px;
   bottom: 20px;
-  padding: 0.6rem 1.2rem;
+  padding: 0.5rem 1rem;
   background-color: var(--pry-color);
-  color: var(--main-bg);
-  border: 1px solid var(--sec-color);
+  border: none;
   border-radius: 10px;
-  font-family: "Karla", "Roboto", sans-serif;
-  font-size: 1.2rem;
-  font-weight: bold;
-  cursor: pointer;
+}
+#join-us a {
+  color: #fff;
 }
 main {
   display: grid;
