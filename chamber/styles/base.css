@@ -321,3 +321,12 @@ form #submitBtn {
   padding: 0;
   position: fixed;
 }
+#thank {
+  height: 70vh;
+  padding: 2rem;
+}
+#thank p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  text-align: left;
+}
