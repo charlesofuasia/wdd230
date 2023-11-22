@@ -5,13 +5,13 @@ const url = "data/members.json";
 
 
 gridBtn.addEventListener('click', () => {
-    directory.classList.add('grid');
+    directory.classList.add('dir-grid');
     directory.classList.remove('list');
 });
 
 listBtn.addEventListener('click', () => {
-    directory.classList.add('list');
-    directory.classList.remove('grid');
+    directory.classList.add('dir-list');
+    directory.classList.remove('dir-grid');
 })
 
 async function getCards(){

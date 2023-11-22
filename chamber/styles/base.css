@@ -273,12 +273,25 @@ form #submitBtn {
   justify-content: flex-end;
 }
 #directory {
+  max-width: 100%;
+}
+.dir-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  align-items: center;
-  width: 100%;
+  gap: 0.5rem;
+  text-align: center;
 }
-#directory .card img {
+.dir-list {
+  display: flex;
+  flex-direction: column;
+}
+.dir-list img {
+  display: none;
+}
+.dir-list section {
+  display: block;
+}
+.dir-grid img {
   display: block;
   width: 100%;
   height: auto;
