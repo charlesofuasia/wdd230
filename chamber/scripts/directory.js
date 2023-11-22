@@ -1,7 +1,7 @@
 const directory = document.querySelector('#directory');
 const gridBtn = document.querySelector('#grid');
 const listBtn = document.querySelector('#list');
-const url = "https://charlesofuasia.github.io/wdd230/chamber/members.json";
+const url = "data/members.json";
 
 
 gridBtn.addEventListener('click', () => {
