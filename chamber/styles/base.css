@@ -96,7 +96,12 @@ a {
 #hero {
   position: relative;
 }
-#hero p {
+#hero-tag {
+  background-color: var(--main-bg);
+  color: var(--sec-color);
+  border: 1px solid var(--main-bg);
+  opacity: 0.7;
+  max-width: 15rem;
   position: absolute;
   left: 0;
   top: 1rem;
