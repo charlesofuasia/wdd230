@@ -258,28 +258,28 @@ form #submitBtn {
   max-width: 100%;
 }
 /*Styling for directory*/
-#members {
-  display: block;
-}
+
 .btns {
   margin: 1rem;
   padding: 0.75rem;
   cursor: pointer;
-}
+} /*
 #btn-box {
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-}
-#directory {
+}*/
+#members.dir-grid {
+  display: block;
   max-width: 100%;
 }
 .dir-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr;
   gap: 0.5rem;
   text-align: center;
+  max-width: 100%;
 }
 .dir-list {
   display: flex;
