@@ -8,7 +8,6 @@ async function getData(){
         const response = await fetch(url);
         if(response.ok){
             const data = await response.json();
-            console.log(data.list);
             loadForecast(data);
         }else{
             throw Error(await response.text());
