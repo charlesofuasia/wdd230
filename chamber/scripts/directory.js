@@ -39,6 +39,8 @@ function displayMembers(arr){
         logo.loading = "lazy";
         logo.width = "375";
         logo.height = "375";
+        link.setAttribute('href', `${member.website}`);
+        link.setAttribute('target', '_blank');
         link.textContent = member.website;
         address.textContent = member.address;
         phone.textContent = member.phone;

@@ -14,12 +14,12 @@ function displaySpolight(data){
     const card2 = document.createElement('div');
     const header1 = document.createElement('h2');
     const image1 = document.createElement('img');
-    const link1 = document.createElement('p');
+    const link1 = document.createElement('a');
     const add1 = document.createElement('p');
     const desc1 = document.createElement('p');
      const header2 = document.createElement('h2');
     const image2 = document.createElement('img');
-    const link2 = document.createElement('p');
+    const link2 = document.createElement('a');
     const add2 = document.createElement('p');
     const desc2 = document.createElement('p');
     const phone1 = document.createElement('p');
@@ -35,6 +35,8 @@ function displaySpolight(data){
     desc1.textContent = data.members[4].description;
     add1.textContent = data.members[4].address;
     phone1.textContent = data.members[4].phone;
+    link1.setAttribute('href', `${data.members[4].website}`);
+    link1.setAttribute('target', '_blank')
     link1.textContent = data.members[4].website;
     card1.appendChild(header1);
     card1.appendChild(image1);
@@ -53,6 +55,8 @@ function displaySpolight(data){
     desc2.textContent = data.members[5].description;
     add2.textContent = data.members[5].address;
     phone2.textContent = data.members[5].phone;
+    link2.setAttribute('href', `${data.members[5].website}`);
+    link2.setAttribute('target', '_blank');
     link2.textContent = data.members[5].website;
     card2.appendChild(header2);
     card2.appendChild(image2);
