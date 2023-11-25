@@ -42,7 +42,7 @@
             "phone":"070010000001",
             "website": "http://www.zimtech.com",
             "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/zimtech.webp",
-            "membership":"Gold",
+            "membership":"Bronze",
             "description": "Business software developers"
         },
         {
@@ -53,6 +53,24 @@
             "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/sgetch.webp",
             "membership":"Gold",
             "description": "Architects and Builders"
+        },
+        {
+            "name": "Rehoboth Homes",
+            "address": "7 Gibson Avenues, Ajah",
+            "phone": "08005007000",
+            "website": "http://www.rehoboth.com",
+            "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/rehoboth.webp",
+            "membership": "Bronze",
+            "description": "Realtors and Property Developers"
+        },
+        {
+            "name": "Blue Height Hotels",
+            "address": "Fara Park Estates",
+            "phone": "013549000",
+            "website": "http://www.blueheight.com.ng",
+            "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/blue.webp",
+            "membership": "Silver",
+            "description": "Budget Hotel and Lodging"
         }
        
     ]
