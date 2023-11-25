@@ -363,3 +363,27 @@ form #submitBtn {
   font-size: 1.8rem;
   text-align: left;
 }
+#event {
+  border: 2px solid var(--pry-color);
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: var(--sub-bg);
+  margin: 1rem;
+}
+#event img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+#event p {
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 1rem;
+}
+#event h2 {
+  font-size: 3rem;
+}
+.highlight {
+  font-weight: bold;
+}
