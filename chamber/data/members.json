@@ -12,8 +12,8 @@
         {
             "name": "Nulife Water",
             "address": "Lufasi Nature Park",
-            "phone": "070010000000",
-            "website": "http://www.www.nulifewater.com",
+            "phone": "07001000000",
+            "website": "http://www.nulifewater.com",
             "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/nulife.webp",
             "membership": "Silver",
             "description": "Producers of table water"
@@ -30,7 +30,7 @@
         {
             "name": "Nerd's Hub",
             "address": "Lekki CBD",
-            "phone": "0702400000000",
+            "phone": "07024000000",
             "website": "http://www.nerdshub.com",
             "imageurl":"https://charlesofuasia.github.io/wdd230/chamber/images/nerd.webp",
             "membership":"Gold",
@@ -39,7 +39,7 @@
         {
             "name": "Zim Technologies",
             "address": "Lekki Free Zone",
-            "phone":"070010000001",
+            "phone":"07001000001",
             "website": "http://www.zimtech.com",
             "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/zimtech.webp",
             "membership":"Bronze",
@@ -48,7 +48,7 @@
         {
             "name": "Sgetch Designs",
             "address": "3 Lugard Drive, Ikoyi",
-            "phone": "070110000000",
+            "phone": "07011000000",
             "website": "http://www.sgetch.com",
             "imageurl": "https://charlesofuasia.github.io/wdd230/chamber/images/sgetch.webp",
             "membership":"Gold",
