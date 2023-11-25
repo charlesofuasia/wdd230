@@ -93,6 +93,11 @@ a {
 .show li a {
   display: block;
 }
+nav #present {
+  background-color: var(--sub-bg);
+  color: var(--pry-color);
+  font-weight: bold;
+}
 #hero {
   position: relative;
 }

@@ -6,6 +6,7 @@ async function fetchData(){
     const response = await fetch(urlSource);
     const data = await response.json();
     displaySpolight(data);
+    
 }
 
 function displaySpolight(data){
@@ -24,7 +25,8 @@ function displaySpolight(data){
     const phone1 = document.createElement('p');
     const phone2 = document.createElement('p');
 
-    header1.textContent = data.members[4].name
+   
+    header1.textContent = data.members[4].name;
     image1.src = data.members[4].imageurl;
     image1.alt = `image of ${data.members[4].name} logo`;
     image1.setAttribute('width', '375');
@@ -61,11 +63,5 @@ function displaySpolight(data){
     spotlight2.append(card2);
 
     
-
-    
-    
 }
-
-
-
 fetchData();
