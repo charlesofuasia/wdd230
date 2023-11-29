@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: #6fbb8d;
+  --header-color: #e30b5c;
+  --color-bg: #e30b5c;
+  --color-on-color-bg: #c7d4cc;
+}
+header,
+main,
+footer,
+nav {
+  max-width: 100%;
+  margin: 0;
+}
+header {
+  background-color: var(--main-bg);
+  padding: 1rem;
+}
+header #logo-box {
+  width: 30%;
+  margin: 0 auto;
+}
+header #logo-box #logo {
+  width: 100%;
+  height: auto;
+}
+header h1 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+nav ul li {
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto" sans-serif;
+  font-size: 1.5rem;
+}
