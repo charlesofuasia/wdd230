@@ -1,0 +1,32 @@
+@media screen and (min-width: 650px) {
+  #hamburger-menu {
+    display: none;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  header #logo-box {
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  #logo {
+    width: 100%;
+    margin-top: 6rem;
+  }
+  header nav {
+    grid-column: 2/3;
+    margin: 0;
+  }
+  .menu-list li {
+    display: block;
+    flex: 1 1 100%;
+  }
+  .menu-list {
+    flex-direction: row;
+  }
+}
