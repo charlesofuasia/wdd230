@@ -104,13 +104,22 @@ nav {
   height: auto;
 }
 #cta {
-  width: 8rem;
+  width: 10rem;
   background-color: var(--color-bg);
   color: var(--color-on-color-bg);
-  padding: 1rem 2rem;
+  padding: 0.6rem 1rem;
   position: absolute;
   bottom: 4rem;
   right: 2rem;
   border-radius: 10px;
   border: var(--btn-border);
+  text-align: center;
+  opacity: 0.5;
+  font-family: "Noto Sans", "Roboto", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+#cta a {
+  color: #e0ffff;
+  text-decoration: none;
 }
