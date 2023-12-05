@@ -82,3 +82,35 @@ nav {
 .show li a {
   display: block;
 }
+.current::after {
+  content: " 🛵";
+  background-color: var(--color-on-color-bg);
+}
+.current {
+  font-weight: bolder;
+}
+.menu-list li a:hover {
+  background-color: var(--main-bg);
+  color: var(--header-color);
+}
+/*CSS for Hero*/
+#hero {
+  max-width: 100%;
+  position: relative;
+}
+
+#hero img {
+  width: 100%;
+  height: auto;
+}
+#cta {
+  width: 8rem;
+  background-color: var(--color-bg);
+  color: var(--color-on-color-bg);
+  padding: 1rem 2rem;
+  position: absolute;
+  bottom: 4rem;
+  right: 2rem;
+  border-radius: 10px;
+  border: var(--btn-border);
+}
