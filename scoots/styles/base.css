@@ -93,7 +93,7 @@ nav {
   background-color: var(--main-bg);
   color: var(--header-color);
 }
-/*CSS for Hero*/
+/*CSS for Home Page*/
 #hero {
   max-width: 100%;
   position: relative;
@@ -122,4 +122,43 @@ nav {
 #cta a {
   color: #e0ffff;
   text-decoration: none;
+}
+#home {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+#weather span {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+#weather img {
+  float: left;
+}
+#weather span:first-of-type {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+#home table {
+  max-width: 100%;
+}
+#home caption {
+  caption-side: bottom;
+  margin: 1rem auto;
+}
+th,
+td {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+th {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+}
+td {
+  font-family: "Noto sans", sans-serif;
+  font-size: 1.5rem;
 }
