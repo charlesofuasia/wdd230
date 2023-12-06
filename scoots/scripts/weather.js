@@ -60,7 +60,6 @@ function displayInfo(data){
     tomorrow.appendChild(visibility2);
     tomorrow.appendChild(desc2);
 
-
     weatherInfo.appendChild(weatherHeader);
     weatherInfo.appendChild(today);
     weatherInfo.appendChild(tomorrow);

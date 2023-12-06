@@ -11,6 +11,9 @@
   --btn-border: 1px solid var(--main-bg);
   --basic-font: "Roboto";
 }
+body {
+  margin: 0;
+}
 header,
 main,
 footer,
@@ -161,7 +164,7 @@ td {
 }
 th {
   font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 td {
   font-family: "Noto sans", sans-serif;
@@ -178,7 +181,7 @@ td {
 }
 #home h2 {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .card #weather {
   width: 100%;
