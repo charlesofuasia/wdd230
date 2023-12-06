@@ -97,6 +97,7 @@ nav {
 #hero {
   max-width: 100%;
   position: relative;
+  margin: 0 auto;
 }
 
 #hero img {
@@ -128,6 +129,7 @@ nav {
   grid-template-columns: 1fr;
   gap: 1rem;
   padding: 1rem;
+  background-color: var(--color-bg);
 }
 #weather span {
   display: block;
@@ -144,10 +146,13 @@ nav {
 }
 #home table {
   max-width: 100%;
+  margin: 0 auto;
 }
 #home caption {
   caption-side: bottom;
   margin: 1rem auto;
+  font-family: "Noto sans", sans-serif;
+  font-size: 1.2rem;
 }
 th,
 td {
@@ -161,4 +166,20 @@ th {
 td {
   font-family: "Noto sans", sans-serif;
   font-size: 1.1rem;
+}
+#home table td a {
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+#home.card {
+  background-color: var(--color-on-color-bg);
+  width: 100%;
+}
+#home h2 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+#weather {
+  width: 100%;
 }
