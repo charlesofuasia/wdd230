@@ -145,7 +145,7 @@ nav {
   font-weight: bold;
 }
 #home table {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
 }
 #home caption {
@@ -172,7 +172,7 @@ td {
   font-weight: bold;
   cursor: pointer;
 }
-#home.card {
+#home .card {
   background-color: var(--color-on-color-bg);
   width: 100%;
 }
@@ -180,6 +180,6 @@ td {
   text-align: center;
   font-size: 1.8rem;
 }
-#weather {
+.card #weather {
   width: 100%;
 }

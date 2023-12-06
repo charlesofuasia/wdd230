@@ -29,4 +29,8 @@
   .menu-list {
     flex-direction: row;
   }
+  #home {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
 }
