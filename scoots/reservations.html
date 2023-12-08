@@ -65,7 +65,65 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main id="reservation">
+      <h2>Reservations</h2>
+      <section id="form">
+        <h3>Reservation Form</h3>
+        <form action="acknowledge.html" method="get">
+          <fieldset>
+            <legend>Personal Details</legend>
+            <div>*Indcates required input</div>
+            <label class="top">
+              *Your Name: <input type="text" id="name" name="name" required />
+            </label>
+            <label class="top">
+              Phone: <input type="tel" id="phone" name="phone" />
+            </label>
+            <label class="top">
+              *Email: <input type="email" id="email" name="email" required />
+            </label>
+            <label class="top">
+              State/Region/Country:
+              <input type="text" id="residence" name="residence" />
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Details of Reservation</legend>
+            <label class="top">
+              *Date Reserved:
+              <input type="date" id="date" name="date" required />
+            </label>
+            <div>Rental Period</div>
+            <label class="side">
+              <input type="radio" id="half" name="period" /> Half-Day
+            </label>
+            <label class="side">
+              <input type="radio" id="full" name="period" /> Full-Day
+            </label>
+            <label class="side">
+              Rental Type:
+              <select name="type" id="type" required>
+                <option value="">Choose type</option>
+                <option value="metro">Honda Metropolitan</option>
+                <option value="dio">Honda Dio</option>
+                <option value="pcx">Honda PCX150</option>
+                <option value="pioneer">Honda Pioneer 1000</option>
+                <option value="jeep2">Jeep Wrangler 2 Door</option>
+                <option value="jeep4">Jeep Wranger 4 Door</option>
+              </select>
+            </label>
+            <label class="side">
+              *How many do you need?:
+              <input type="number" id="quantity" name="quantity" required />
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Special Instructions</legend>
+          </fieldset>
+        </form>
+      </section>
+      <section id="agreement"></section>
+    </main>
     <footer>
       <div id="info"></div>
       <div id="socials"></div>
