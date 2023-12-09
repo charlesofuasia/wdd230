@@ -1,4 +1,4 @@
-const url = "http://api.openweathermap.org/data/2.5/forecast?lat=20.42&lon=-86.92&units=imperial&appid=6884df5e492c8ff4980c6b3a650eb8a0";
+const url = "https://api.openweathermap.org/data/2.5/forecast?lat=20.42&lon=-86.92&units=imperial&appid=6884df5e492c8ff4980c6b3a650eb8a0";
 const info = document.querySelector('#weather');
 
 async function fetchData(){
