@@ -13,6 +13,7 @@
 }
 body {
   margin: 0;
+  max-width: 100%;
 }
 header,
 main,
@@ -133,6 +134,13 @@ nav {
   gap: 1rem;
   padding: 1rem;
   background-color: var(--color-bg);
+  max-width: 100%;
+}
+#advert img {
+  width: 50%;
+  height: auto;
+  float: left;
+  margin: 1rem;
 }
 #weather span {
   display: block;
