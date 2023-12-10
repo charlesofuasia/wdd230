@@ -100,7 +100,6 @@ nav {
 /*CSS for Home Page*/
 #hero {
   max-width: 100%;
-  position: relative;
   margin: 0 auto;
 }
 
@@ -109,17 +108,14 @@ nav {
   height: auto;
 }
 #cta {
-  width: 10rem;
+  width: 8rem;
   background-color: var(--color-bg);
   color: var(--color-on-color-bg);
   padding: 0.6rem 1rem;
-  position: absolute;
-  bottom: 4rem;
-  right: 2rem;
+
   border-radius: 10px;
   border: var(--btn-border);
   text-align: center;
-  opacity: 0.5;
   font-family: "Noto Sans", "Roboto", sans-serif;
   font-weight: bold;
   cursor: pointer;
