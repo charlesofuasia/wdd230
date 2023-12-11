@@ -208,6 +208,7 @@ tbody tr th {
 .card #weather {
   width: 100%;
 }
+/*CSS for Reservation Page*/
 
 #reservation {
   margin: 0 auto;
@@ -254,4 +255,16 @@ label.top textarea {
   resize: none;
   width: 100%;
   max-width: 19rem;
+}
+/*CSS for Rentals Page*/
+#rentals .card {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+  max-width: 100%;
+}
+#rentals .card img {
+  width: 100%;
+  height: auto;
 }
