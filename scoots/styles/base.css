@@ -49,12 +49,11 @@ nav {
 }
 #hamburger-menu {
   display: inline-block;
-  background: transparent;
+  background: var(--main-bg);
   color: var(--header-color);
   padding: 0.4rem 0.7rem;
   position: absolute;
   right: 1rem;
-  top: 0;
 }
 #hamburger-menu::before {
   content: "MENU";
@@ -78,6 +77,7 @@ nav {
   font-family: "Rubik", "Roboto", sans-serif;
   font-size: 1.5rem;
   color: #e0ffff;
+  text-align: center;
 }
 .show li {
   display: block;
@@ -98,6 +98,15 @@ nav {
   color: var(--header-color);
 }
 /*CSS for Home Page*/
+#media-icons {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#media-icons img {
+  width: 1rem;
+  height: auto;
+}
 #hero {
   max-width: 100%;
   margin: 0 auto;
@@ -111,14 +120,15 @@ nav {
   width: 8rem;
   background-color: var(--color-bg);
   color: var(--color-on-color-bg);
-  padding: 0.6rem 1rem;
-
+  padding: 0.2rem 0.5rem;
   border-radius: 10px;
   border: var(--btn-border);
   text-align: center;
   font-family: "Noto Sans", "Roboto", sans-serif;
-  font-weight: bold;
   cursor: pointer;
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
 }
 #cta a {
   color: #e0ffff;
@@ -131,6 +141,9 @@ nav {
   padding: 1rem;
   background-color: var(--color-bg);
   max-width: 100%;
+}
+#advert {
+  position: relative;
 }
 #advert img {
   width: 50%;
@@ -163,16 +176,17 @@ nav {
 }
 th,
 td {
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+}
+thead th,
+td {
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
-th {
+tbody tr th {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
-}
-td {
-  font-family: "Noto sans", sans-serif;
-  font-size: 1.1rem;
+  text-align: left;
 }
 #home table td a {
   text-decoration: none;
