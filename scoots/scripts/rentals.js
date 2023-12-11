@@ -12,6 +12,7 @@ async function fetchRentals(){
 function loadRentals(data){
     data.forEach((rental) => {
         let card = document.createElement('div');
+        card.classList.add('card')
         let title = document.createElement('h3');
         let photo = document.createElement('img');
         let table = document.createElement('table');
