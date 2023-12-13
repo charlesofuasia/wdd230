@@ -3,13 +3,14 @@
 }
 
 :root {
-  --main-bg: #6fbb8d;
-  --sec-color: #0be392;
-  --header-color: #e30b5c;
-  --color-bg: #e30b5c;
-  --color-on-color-bg: #c7d4cc;
+  --main-bg: #ffb630;
+  --sec-color: #a3f7d9;
+  --header-color: #123d2d;
+  --color-bg: #e35b0b;
+  --color-on-color-bg: #ea9b0a;
   --btn-border: 1px solid var(--main-bg);
-  --basic-font: "Roboto";
+  --card-bg: #a3f7d9;
+  --btn-bg: #dfaf37;
 }
 body {
   margin: 0;
@@ -25,6 +26,11 @@ nav {
 h2,
 h3 {
   text-align: center;
+  color: var(--header-color);
+}
+.card {
+  background-color: var(--card-bg);
+  padding: 1rem;
 }
 header {
   background-color: var(--main-bg);
@@ -44,6 +50,7 @@ header h1 {
   font-size: 3rem;
   padding: 0;
   margin: 0 auto;
+  color: var(--header-color);
 }
 /*CSS for responsive navigation menu*/
 nav {
@@ -108,8 +115,9 @@ nav {
   right: 0;
 }
 #media-icons img {
-  width: 1rem;
+  width: 2rem;
   height: auto;
+  margin: 1rem;
 }
 #hero {
   max-width: 100%;
@@ -122,8 +130,7 @@ nav {
 }
 #cta {
   width: 8rem;
-  background-color: var(--color-bg);
-  color: var(--color-on-color-bg);
+  background-color: var(--btn-bg);
   padding: 0.2rem 0.5rem;
   border-radius: 10px;
   border: var(--btn-border);
@@ -131,21 +138,22 @@ nav {
   font-family: "Noto Sans", "Roboto", sans-serif;
   cursor: pointer;
   position: absolute;
-  bottom: 4rem;
-  left: 1rem;
+  bottom: 6rem;
+  left: 3rem;
+  opacity: 0.7;
 }
 #cta a {
-  color: #e0ffff;
+  color: #000;
   text-decoration: none;
 }
 #advert {
-  background-color: var(--color-bg);
+  background-color: var(--main-bg);
   color: var(--color-on-color-bg);
 }
 #ad-space {
   font-family: "Beau Rivage";
   font-size: 1.4rem;
-  color: var(--color-on-color-bg);
+  color: #000;
   padding: 2rem;
 }
 #home {
@@ -248,7 +256,8 @@ label.top {
   text-align: left;
 }
 label.top input,
-label.top select {
+label.top select,
+div.top {
   display: block;
   width: 100%;
   max-width: 19rem;
@@ -268,6 +277,24 @@ label.top textarea {
   resize: none;
   width: 100%;
   max-width: 19rem;
+}
+label input:required {
+  background-color: #ff6a74;
+}
+label input:required:valid {
+  background-color: transparent;
+}
+#submitBtn {
+  border: none;
+  background-color: var(--btn-bg);
+  padding: 0.6rem 1rem;
+  margin: 1rem 1rem 2rem 0.5rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 20rem;
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 /*CSS for Rentals Page*/
 #rentals .card {
@@ -296,4 +323,16 @@ footer img {
   width: 25px;
   height: auto;
   margin: 2rem;
+}
+footer {
+  background-color: var(--header-color);
+  color: var(--sec-color);
+  padding: 1rem;
+  font-family: "roboto";
+  font-size: 1rem;
+  display: block;
+}
+footer a {
+  text-decoration: none;
+  color: var(--sec-color);
 }
