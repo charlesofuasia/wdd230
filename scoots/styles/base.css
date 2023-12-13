@@ -336,3 +336,10 @@ footer a {
   text-decoration: none;
   color: var(--sec-color);
 }
+#thank {
+  font-size: 1.2rem;
+  font-family: "Roboto";
+  background: var(--card-bg);
+  color: var(--header-color);
+  padding: 2rem;
+}
