@@ -26,7 +26,24 @@
     />
 
     <!--Favicon link-->
-    <link rel="icon" href="scoots-favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
 
     <!--css links-->
     <link rel="stylesheet" href="styles/normalize.css" />
@@ -65,7 +82,50 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main id="contact">
+      <section class="card">
+        <h2>Our Outlets</h2>
+        <h3>Playa del Carmen</h3>
+        <p>
+          Mariners Building<br />Cozumel Ferry Dock<br />el Centro Cozumel<br />+52
+          55 12345678<br />Email: playa@scoot.com
+        </p>
+        <h3>Puerta Maya</h3>
+        <p>
+          3rd st, Puerta Maya<br />+53 55 22345678<br />Email: maya@scoots.com
+        </p>
+      </section>
+      <section class="card">
+        <h2>Make an inquiry</h2>
+        <form action="acknowledge.html">
+          <label class="top">
+            Your Full Name: <input type="text" name="name" id="name" required />
+          </label>
+          <label class="top">
+            Your Phone Number: <input type="tel" name="phone" id="phone" />
+          </label>
+          <label class="top">
+            Your Email Address:
+            <input type="email" name="email" id="email" required />
+          </label>
+          <label class="top">
+            Your Message:
+            <textarea name="message" id="message" cols="30" rows="6"></textarea>
+          </label>
+        </form>
+      </section>
+      <section id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239293.76244058926!2d-87.0284159!3d20.4255199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sng!4v1702459104081!5m2!1sen!2sng"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
     <footer>
       <div id="info"></div>
       <div id="socials"></div>

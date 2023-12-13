@@ -40,4 +40,12 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
   }
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  #map {
+    grid-column: 1/3;
+  }
 }

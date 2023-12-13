@@ -131,19 +131,28 @@ nav {
   font-family: "Noto Sans", "Roboto", sans-serif;
   cursor: pointer;
   position: absolute;
-  bottom: 2rem;
-  right: 1rem;
+  bottom: 4rem;
+  left: 1rem;
 }
 #cta a {
   color: #e0ffff;
   text-decoration: none;
+}
+#advert {
+  background-color: var(--color-bg);
+  color: var(--color-on-color-bg);
+}
+#ad-space {
+  font-family: "Beau Rivage";
+  font-size: 1.4rem;
+  color: var(--color-on-color-bg);
+  padding: 2rem;
 }
 #home {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
   padding: 1rem;
-  background-color: var(--color-bg);
   max-width: 100%;
 }
 #advert {
@@ -158,15 +167,18 @@ nav {
 #weather span {
   display: block;
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0.5rem;
 }
 #weather img {
   float: left;
 }
 #weather span:first-of-type {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
+}
+#weather div {
+  margin-bottom: 2rem;
 }
 #home table {
   width: 100%;
@@ -197,10 +209,6 @@ tbody tr th {
   font-weight: bold;
   cursor: pointer;
 }
-#home .card {
-  background-color: var(--color-on-color-bg);
-  width: 100%;
-}
 #home h2 {
   text-align: center;
   font-size: 1.5rem;
@@ -213,6 +221,11 @@ tbody tr th {
 #reservation {
   margin: 0 auto;
   display: block;
+}
+#reservation ul li {
+  padding: 0.8rem;
+  font-family: "Noto sans", sans-serif;
+  font-size: 1.2rem;
 }
 #reservation section {
   margin: 1rem;
@@ -231,7 +244,7 @@ legend {
 }
 label.top {
   display: block;
-  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: left;
 }
 label.top input,
@@ -267,4 +280,20 @@ label.top textarea {
 #rentals .card img {
   width: 100%;
   height: auto;
+}
+/*CSS for Contact Page*/
+#contact h3,
+#contact h2 {
+  text-align: left;
+}
+#map iframe {
+  width: 100%;
+  max-width: 100%;
+}
+
+/*CSS for footer*/
+footer img {
+  width: 25px;
+  height: auto;
+  margin: 2rem;
 }
