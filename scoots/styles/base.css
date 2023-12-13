@@ -206,16 +206,16 @@ td {
 thead th,
 td {
   font-family: "Roboto", sans-serif;
-  text-align: center;
-}
-tbody tr th {
-  font-family: "Roboto", sans-serif;
   text-align: left;
 }
+
 #home table td a {
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
+}
+#home table tbody tr:nth-of-type(odd) {
+  background-color: #fff;
 }
 #home h2 {
   text-align: center;
