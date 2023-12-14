@@ -138,8 +138,8 @@ nav {
   font-family: "Noto Sans", "Roboto", sans-serif;
   cursor: pointer;
   position: absolute;
-  bottom: 6rem;
-  left: 3rem;
+  top: 5rem;
+  left: 4rem;
   opacity: 0.7;
 }
 #cta a {
@@ -191,12 +191,6 @@ nav {
 #home table {
   width: 100%;
   margin: 0 auto;
-}
-#home caption {
-  caption-side: bottom;
-  margin: 1rem auto;
-  font-family: "Noto sans", sans-serif;
-  font-size: 1.2rem;
 }
 th,
 td {
